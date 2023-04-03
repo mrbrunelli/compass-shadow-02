@@ -31,11 +31,11 @@ class RecipeService {
 
     async createNewRecipe(recipe: Recipe): Promise<void> {
         const { error } = validate(recipe)
-        if (error) throw new Error(`invalid recipe: ${error}`)
+        if (error) throw new BadRequestError(`invalid recipe: ${error}`)
         try {
             await this.repository.save(recipe)
         } catch (e) {
-            throw new Error("internal error")
+            throw new InternalServerError("internal error")
         }
     }
 }

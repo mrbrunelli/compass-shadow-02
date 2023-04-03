@@ -33,3 +33,7 @@ src: ./pages/recipe-repository.md
 src: ./pages/recipe-service.md
 ---
 
+---
+src: ./pages/recipe-controller.md
+---
+
