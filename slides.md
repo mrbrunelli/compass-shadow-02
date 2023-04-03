@@ -37,3 +37,6 @@ src: ./pages/recipe-service.md
 src: ./pages/recipe-controller.md
 ---
 
+---
+src: ./pages/curl.md
+---
