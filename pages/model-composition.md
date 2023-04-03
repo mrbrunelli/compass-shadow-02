@@ -1,6 +1,8 @@
 # Composição de modelos
 
-Nossos modelos ficarão dessa forma
+Responsável por representar uma entidade do negócio
+
+Nossos modelos serão compostos da seguinte forma
 
 ```ts
 interface RecipeAuthor {

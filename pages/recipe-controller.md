@@ -3,7 +3,7 @@ layout: cover
 background: false
 ---
 
-# Camada de controllers
+# Camada de controladores
 
 ---
 

@@ -44,6 +44,8 @@ layout: cover
 background: false
 ---
 
+Retornará `sucesso` para o cliente
+
 ```mermaid
 flowchart LR
     Client((Usuário)) -->|Envia uma Receita| Server(API) --> Validator{Os dados são válidos?}
@@ -65,6 +67,8 @@ layout: cover
 background: false
 ---
 
+Retornará `erro` para o cliente
+
 ```mermaid
 flowchart LR
     Client((Usuário)) -->|Envia uma Receita| Server(API) --> Validator{Os dados são válidos?}
@@ -75,8 +79,11 @@ flowchart LR
 ```
 
 ---
+layout: cover
+background: false
+---
 
-# Fluxo completo de criação de uma receita
+Fluxo completo de criação de uma nova `receita`
 
 <div v-click>
 A receita só poderá ser salva se todos os dados fornecidos forem válidos
@@ -84,7 +91,7 @@ A receita só poderá ser salva se todos os dados fornecidos forem válidos
 
 ```mermaid
 flowchart LR
-    Client((Usuário)) -->|Envia uma Receita| Server(API) -->|Validação dos dados| Validator{Os dados são válidos?}
+    Client((Usuário)) -->|Envia uma Receita| Server(API) --> Validator{Os dados são válidos?}
     Validator -->|Sim| Save(Salvar receita) --> DB[(Bando de dados)]
     Validator -->|Não| BadRequest(Dados inválidos)
     DB --> End(Fim)

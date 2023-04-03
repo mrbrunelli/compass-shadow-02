@@ -8,7 +8,7 @@ background: false
 ---
 
 # Serviço de receitas
-Responsável por interagir com a camada de `modelo` e `repositório`
+Responsável por interagir com a camada de `modelo` e `repositório` e executar as regras de negócio
 
 <div v-click-hide>
 
@@ -25,7 +25,7 @@ class RecipeService {
 <div v-after>
 E vamos implementar nossas regras de negócio
 
-```ts {4-14}
+```ts {4-12}
 class RecipeService {
     constructor(private readonly repository: RecipeRepository) {}
 

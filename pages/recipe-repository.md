@@ -8,7 +8,7 @@ background: false
 ---
 
 # Repositório de receitas
-Responsável por realizar operações de busca e persistência de receitas
+Responsável por realizar operações de busca e persistência de `receitas`
 
 <div v-click>
 

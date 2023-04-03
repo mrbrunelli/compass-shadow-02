@@ -8,10 +8,11 @@ background: false
 ---
 
 # Modelo da receita
+Responsável por representar uma entidade do negócio
 
 <div v-click-hide>
 
-O primeiro passo é modelar o que será uma `receita`
+O primeiro passo é modelar o que será uma `receita` na nossa aplicação
 
 ```ts
 interface Recipe {
