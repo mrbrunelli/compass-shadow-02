@@ -21,4 +21,15 @@ src: ./pages/recipe-model.md
 src: ./pages/author-model.md
 ---
 
+---
+src: ./pages/model-composition.md
+---
+
+---
+src: ./pages/recipe-repository.md
+---
+
+---
+src: ./pages/recipe-service.md
+---
 

@@ -1,8 +1,17 @@
+---
+layout: cover
+background: false
+---
+
+# Camada de domínio
+
+---
+
 # Modelo da receita
 
 <div v-click-hide>
 
-O primeiro passo é modelar o que será uma receita
+O primeiro passo é modelar o que será uma `receita`
 
 ```ts
 interface Recipe {
