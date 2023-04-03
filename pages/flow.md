@@ -5,7 +5,7 @@ background: false
 
 
 # Fluxo da aplicação
-
+Criação de uma nova receita
 
 ---
 layout: cover
@@ -79,7 +79,7 @@ flowchart LR
 # Fluxo completo de criação de uma receita
 
 <div v-click>
-A receita só poderá ser salva se todos os dados fornecidos estiverem válidos
+A receita só poderá ser salva se todos os dados fornecidos forem válidos
 </div>
 
 ```mermaid
