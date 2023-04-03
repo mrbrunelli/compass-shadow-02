@@ -16,7 +16,7 @@ interface Recipe {
 
 </div>
 
-<div v-click>
+<div v-after>
 
 Veja que estamos fazendo referência a outro modelo
 
