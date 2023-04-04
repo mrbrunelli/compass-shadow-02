@@ -29,7 +29,8 @@ flowchart LR
             RecipeRepository
             Database
         end
-        RecipeController --> RecipeService
+        RecipeController -->|Entrada| RecipeService
+        RecipeService -->|Saída| RecipeController
         RecipeService --> RecipeRepository
         RecipeService --> RecipeModel
         RecipeModel --> RecipeAuthorModel
