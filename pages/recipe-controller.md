@@ -1,9 +1,9 @@
 ---
-layout: cover
-background: false
+layout: section
 ---
 
 # Camada de controladores
+Responsável por receber e responder requisições http.
 
 ---
 

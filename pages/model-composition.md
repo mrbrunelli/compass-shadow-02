@@ -1,6 +1,6 @@
 # Composição de modelos
 
-Responsável por representar uma entidade do negócio
+Responsável por representar uma entidade do negócio.
 
 Nossos modelos serão compostos da seguinte forma
 

@@ -1,14 +1,14 @@
 ---
-layout: cover
-background: false
+layout: section
 ---
 
 # Camada de serviços
+Responsável por interagir com a camada de modelo e repositório, e executar as regras de negócio.
 
 ---
 
 # Serviço de receitas
-Responsável por interagir com a camada de `modelo` e `repositório` e executar as regras de negócio
+Responsável por interagir com a camada de `modelo` e `repositório`, e executar as regras de negócio.
 
 <div v-click-hide>
 

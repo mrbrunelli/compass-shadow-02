@@ -1,14 +1,14 @@
 ---
-layout: cover
-background: false
+layout: section
 ---
 
 # Camada de domínio
+Reponsável por representar uma entidade do negócio.
 
 ---
 
 # Modelo da receita
-Responsável por representar uma entidade do negócio
+Responsável por representar uma entidade do negócio.
 
 <div v-click-hide>
 

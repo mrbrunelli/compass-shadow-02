@@ -1,11 +1,11 @@
 ---
-layout: cover
+layout: section
 background: false
 ---
 
 
 # Fluxo da aplicação
-Criação de uma nova receita
+Criação de uma nova receita <uim-angle-double-right class="text-orange-400 animate-pulse" />
 
 ---
 layout: cover
@@ -57,7 +57,7 @@ flowchart LR
 
 ---
 layout: cover
-background: false
+background: https://images.unsplash.com/photo-1555861496-0666c8981751?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 ---
 
 E se der erro na validação?
@@ -83,10 +83,12 @@ layout: cover
 background: false
 ---
 
-Fluxo completo de criação de uma nova `receita`
+Fluxograma completo de criação de uma nova `receita`
 
 <div v-click>
-A receita só poderá ser salva se todos os dados fornecidos forem válidos
+
+> A receita só poderá ser salva se todos os dados fornecidos forem válidos
+
 </div>
 
 ```mermaid

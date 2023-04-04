@@ -40,3 +40,13 @@ src: ./pages/recipe-controller.md
 ---
 src: ./pages/curl.md
 ---
+
+---
+layout: section
+---
+
+Obrigado 👋
+
+<center>
+    <img src="static/qr-code.png" width="400">
+</center>

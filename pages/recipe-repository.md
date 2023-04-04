@@ -1,9 +1,9 @@
 ---
-layout: cover
-background: false
+layout: section
 ---
 
 # Camada de persistência
+Responsável por realizar operações de busca e persistência do modelo.
 
 ---
 

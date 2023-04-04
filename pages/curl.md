@@ -4,7 +4,7 @@ Com nossa aplicação executando, poderíamos disparar um `POST` para nosso endp
 
 <div v-click>
 
-Exemplo de `POST` <uim-angle-double-down class="text-orange-400" />
+Exemplo de `POST` <uim-angle-double-down class="text-orange-400 animate-bounce" />
 
 ```shell {monaco}
 curl --location 'http://localhost:3000/recipes' \
