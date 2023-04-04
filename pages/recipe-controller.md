@@ -41,3 +41,22 @@ router.post("/recipes", async (req: Request, res: Response) => {
 ```
 
 </div>
+
+---
+
+# Vamos analisar
+
+```ts {0|2|3|5,12|1,5,12|6,9,11|7|8|10|all}
+const router = Router();
+const repository = new MongoDBRecipeRepository()
+const service = new RecipeService(repository)
+
+router.post("/recipes", async (req: Request, res: Response) => {
+  try {
+    await service.createNewRecipe(req.body)
+    return res.status(201).send()
+  } catch (e) {
+    return res.status(e.statusCode).json(e.message)
+  }
+})
+```

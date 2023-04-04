@@ -35,3 +35,19 @@ class MongoDBRecipeRepository implements RecipeRepository {
 ```
 
 </div>
+
+---
+
+# Vamos analisar
+
+```ts {0|1,3|2|5,9|6,8|2,6,8|7|all}
+interface RecipeRepository {
+    save(recipe: Recipe): Promise<void>
+}
+
+class MongoDBRecipeRepository implements RecipeRepository {
+    async save(recipe: Recipe): Promise<void> {
+        await this.collection.insertOne(recipe)
+    }
+}
+```

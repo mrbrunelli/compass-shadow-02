@@ -4,7 +4,7 @@ Responsável por representar uma entidade do negócio.
 
 Nossos modelos serão compostos da seguinte forma
 
-```ts
+```ts {all|11}
 interface RecipeAuthor {
   name: string;
   email: string;

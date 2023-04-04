@@ -10,11 +10,10 @@ Reponsável por representar uma entidade do negócio.
 # Modelo da receita
 Responsável por representar uma entidade do negócio.
 
-<div v-click-hide>
 
 O primeiro passo é modelar o que será uma `receita` na nossa aplicação
 
-```ts
+```ts {all|2|6}
 interface Recipe {
   id?: string;
   name: string;
@@ -24,20 +23,9 @@ interface Recipe {
 }
 ```
 
-</div>
 
-<div v-after>
+<div v-click>
 
-Veja que estamos fazendo referência a outro modelo
-
-```ts {6}
-interface Recipe {
-  id?: string;
-  name: string;
-  ingredients: string[];
-  preparation: string;
-  recipeAuthor: RecipeAuthor;
-}
-```
+- Veja que estamos fazendo referência a outro modelo
 
 </div>
