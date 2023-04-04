@@ -53,5 +53,5 @@ layout: section
 Obrigado 👋
 
 <center>
-    <img src="static/qr-code.png" width="400">
+    <img src="/static/qr-code.png" width="400">
 </center>
